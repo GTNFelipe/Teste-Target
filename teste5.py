@@ -1,4 +1,4 @@
-def identify_lights():
+def identificando_luz():
     # Simulação inicial dos estados das lâmpadas e interruptores
     # 'off' = desligado, 'on' = ligado
     # A lâmpada que estava ligada por mais tempo vai estar quente
@@ -26,6 +26,6 @@ def identify_lights():
     return results
 
 # Identificando as lâmpadas
-results = identify_lights()
+results = identificando_luz()
 for description, lamp in results.items():
     print(f"{description}: {lamp}")
